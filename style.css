@@ -218,21 +218,25 @@ hr{
     padding-left: 30px;
     list-style-type: none;
 }
-.icons{
+.icons {
     margin-top: 40px;
     font-size: 40px;
     padding-bottom: 40px;
 }
-.icons i{
+.icons i {
     margin-right: 40px;
 }
 /* media queries */
 
 /* mobile device */
-
 @media only screen and (max-width:688px){
     .first-banner{
         display: block;
+        margin: 5px 5px;
+        width: 100%;
+    }
+    .banner-details{
+        display: grid;
         margin: 5px 10px;
         width: 100%;
     }
@@ -241,21 +245,50 @@ hr{
         text-align: center;
         margin: 0 25px;
     }
+    .banner-info h1{
+        font-size: 22px;
+     }
+    .banner-info p{
+        font-size: 14px;
+     }
+     .link-button{
+        width: 161px;
+        margin-left: 180px;
+     }
+     .banner-img img{
+        width: 233px;
+        height: 245px;
+        margin-left: 180px;
+        margin-top: -25px;
+     }
     .second-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        display: none;
     }
     .box{
-        background-color: #FFFFFF;
+        
         margin-left: 10px;
     }
     .button-box{
+        background-color: #FFFFFF;
         padding-top: 30px;
         padding-left: 55px;
+       
     }
-    
+   .players{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .item-list{
+    display: grid;
+    font-size: 30px;
+   }
+   .item-list li{
+    margin-bottom: 20px;
+    color: #B9B9B9;
+    font-weight: 400;
+    font-size: 20px;
+   }
 }
 
 
